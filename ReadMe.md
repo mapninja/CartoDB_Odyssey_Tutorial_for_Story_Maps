@@ -19,6 +19,7 @@ I'll be maching up information from various sources ([Wikipedia](http://www.wiki
 * Something interesting to make a Story Map of!
 * Information about the locations that make up your story
  * The **Latitude & Longitude** of your locations (Go to [Google Maps](http://maps.google.com), find your location, **right-click** on it and select **What's Here**. You can *cut-&-paste** the coordinates from the resulting info window)
+
 ![what's here](./images/edit/googlemapswhatshere.png)  ![Google Maps Coordinates](./images/edit/googlemapslatlong.png)
  * Links (URLs) to images
  * Links (URLs) to more content
