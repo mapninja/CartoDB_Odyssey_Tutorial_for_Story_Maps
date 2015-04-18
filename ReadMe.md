@@ -137,12 +137,53 @@ Now we want to do a little culstomization of the pop-ups that will appear when y
 * **Drag-and-Drop** the enabled fields to reorder them so that they are ordered like so:
  * **name**
  * **description**
- * **img_url1**
- * **img_url1_src**
  * **link_url1**
 * Now, click on the **Change HTML** link at the top right of the Cick pop-up panel
 
 ![Change HTML Link](./images/edit/changehtml.png)
+
+* Find the following code:
+>      <h1 class="order1">{{description}}</h1>
+
+    And replace it with:
+>      <h1 class="order1">{{name}}</h1>
+
+    and click **Apply**
+
+This should change the text in the pop-up header to the **name** value you put in the corresponding column.
+
+* Find the following code:
+>      <img src="{{name}}"
+
+    And replace it with:
+>      <img src="{{img_url1}}"
+
+    and click **Apply**
+
+This should replace the current error message in the header with the image for which you placed the URL in your **'img_url1'** column.
+
+
+* Finally, find the following code:
+>      <p>{{link_url1}}</p>
+
+    And replace it with:
+>      <a href="{{link_url1}}" target="_blank"'>More Information</a>
+
+    and click **Apply**
+
+![Custom Pop-up](./images/custompopup.png)
+
+That's it! We're now ready to switch gears to create out Story Map with **Odyssey.js**
+##Creating a Story Map with Odyssey.js
+
+
+
+
+
+
+
+
+
 
 
 
