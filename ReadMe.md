@@ -171,7 +171,12 @@ This should replace the current error message in the header with the image for w
 
     and click **Apply**
 
-![Custom Pop-up](./images/custompopup.png)
+![Custom Pop-up](./images/edit/custompopup.png)
+
+###A Little More Work
+You can customize your CartoDB map a bit more, now, using the **Options** button, etc... I suggest at least setting the options for **Scroll Wheel Zoom**.
+
+![Options](./images/edit/options.png)
 
 That's it! We're now ready to switch gears to create out Story Map with **Odyssey.js**
 ##Creating a Story Map with Odyssey.js
