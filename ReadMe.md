@@ -178,8 +178,22 @@ You can customize your CartoDB map a bit more, now, using the **Options** button
 
 ![Options](./images/edit/options.png)
 
-That's it! We're now ready to switch gears to create out Story Map with **Odyssey.js**
+That's it! We're now ready to switch gears to create a Story Map with **Odyssey.js**
+
+You can find my Tattoo map at 
 ##Creating a Story Map with Odyssey.js
+
+Now that you've created the data for your story map, you're ready to go and build the narrative/navigation part of your application. We're going to use Odyssey.js for this. Odyssey.js is actually a JavaScript library that you can use on your own web  server, but CartoDB has implemented a **Sandbox** that allows non-programmers to deploy a story map with very little coding and without any web server infrastructure, at all.
+
+###Choosing an Odyssey.js Template
+
+* First, go to http://cartodb.github.io/odyssey.js/ and click on the 
+
+![Create a Story](./images/createstory.png)
+
+* Now, **select** the **Slides Template**
+
+![Slides Template](./images/slidestemplate.png)
 
 
 
