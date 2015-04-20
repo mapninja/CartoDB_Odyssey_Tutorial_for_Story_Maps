@@ -20,7 +20,7 @@ I'll be maching up information from various sources ([Wikipedia](http://www.wiki
 * Information about the locations that make up your story
  * The **Latitude & Longitude** of your locations (Go to [Google Maps](http://maps.google.com), find your location, **right-click** on it and select **What's Here**. You can *cut-&-paste** the coordinates from the resulting info window)
 
-![what's here](./images/edit/googlemapswhatshere.png)  ![Google Maps Coordinates](./images/edit/googlemapslatlong.png)
+![what's here](./images/googlemapswhatshere.png)  ![Google Maps Coordinates](./images/googlemapslatlong.png)
  * Links (URLs) to images
  * Links (URLs) to more content
  * Narrative text about your subject
@@ -31,7 +31,7 @@ I'll be maching up information from various sources ([Wikipedia](http://www.wiki
 * Go through the following [CartoDB Academy courses:](http:/academy.cartodb.com/) 
  * [Online Mapping for Beginners](http://academy.cartodb.com/courses/01-beginners-course.html#) - Basic concepts of online mapping
  * [Introduction to Map Design](http://academy.cartodb.com/courses/02-design-for-beginners.html) - Master the basics of designing data for your maps!
-* Learn more about [MarkDown](http://daringfireball.net/projects/markdown/), which is the text editing 'language' you will use to create the content in your Odyssey.js Story Map (It's also what this tutorial is written in!).
+* Learn more about [MarkDown](http://daringfireball.net/projects/markdown/), which is the text /ing 'language' you will use to create the content in your Odyssey.js Story Map (It's also what this tutorial is written in!).
 * Take a look at these pages from the w3schools.com:
  * [HTML img Tag](http://www.w3schools.com/tags/tag_img.asp) - We'll use this to turn our image URL into the image in our pop-ups
  * [HTML a Tag](http://www.w3schools.com/tags/tag_a.asp) - We'll use this to turn our Link URLs into actual links in our pop-ups
@@ -42,31 +42,31 @@ I'll be maching up information from various sources ([Wikipedia](http://www.wiki
 ###Create an Empty Map/Dataset
 * Click on the **New Map** Button.
 
-![New Map Button](./images/edit/newmap.png)
+![New Map Button](./images/newmap.png)
 
 * Click on the **Create New Map** button
 
-![Create a new map](./images/edit/createnew.png)
+![Create a new map](./images/createnew.png)
 
 * Click on your **untitled_map** to highlight it and then click the **Create Empty Map** link at the top right of the page
 
-![Create a new map, again](./images/edit/createemptymap.png)
+![Create a new map, again](./images/createemptymap.png)
 
 * Click on yet another **Create Map** button...
 
-![Create a new map, again](./images/edit/createnewmapagain.png)
+![Create a new map, again](./images/createnewmapagain.png)
 
 ###Adding Fields to an Empty CartoDB Table
-![Initial Map View](./images/edit/initialmapview.png)
+![Initial Map View](./images/initialmapview.png)
 You should now see something like the image, above, with a basic CartoDB Basemap and the tools you need to begin building your map. You should have already gone through the CartoDB Academy Basic courses, so we won't go through all of the details, now. We're going to get right to work creating fields to hold our content. Let's get started...
 
 * Click on the **Data View** button at the top of the page...
 
-![Create a new map, again](./images/edit/dataview.png)
+![Create a new map, again](./images/dataview.png)
 
 * CartoDB will tell you to start adding rows, but we're not ready for that, yet. First, we want to add some columns to hold the content we want in our pop-ups and hoveer actions. Click on the **Add Columns** button, instead...
 
-![Add Columns](./images/edit/addcolumns.png)
+![Add Columns](./images/addcolumns.png)
 
 * Our blank table already has **description** and **name** fields, so we don't need to add those. We *do* want to add images to our pop-ups, as well as links our image sources and maybe even links to other websites with more information on the subject of the points we input. Let's add columns for those...
 
@@ -79,18 +79,18 @@ Add the following columns using the **Add new column** dialog box (just click th
 * **'latitude'** with a type of **'number'**
 * **'longitude'** with a type of **'number'**
 
-![Add Columns](./images/edit/addnewcolumndialog.png)
+![Add Columns](./images/addnewcolumndialog.png)
 
 ##Entering Your Data!
 Now it's time to start putting some content into your CartoDB table. Hopefully, you've already assembled the materials you need and can simply begin to **cut-&_paste** that data into your table.
 
 * First, click on either of the **Add Row** buttons at the left side of the first empty row, or at the bottom right of the table, right above the *Add Column** button.
 
-![Add a Row](./images/edit/addnewrow.png)
+![Add a Row](./images/addnewrow.png)
 
-* Now simply **double-click** in the **cell** you want to edit and **cut-&-paste** the data for your locations into the table.
+* Now simply **double-click** in the **cell** you want to / and **cut-&-paste** the data for your locations into the table.
 
-![Editing Cell Values](./images/edit/editingcells.png)
+![Editing Cell Values](./images//ingcells.png)
 
 **Now all you need to do is repeat the process for all of your locations!**
 
@@ -98,23 +98,23 @@ Now it's time to start putting some content into your CartoDB table. Hopefully, 
 Once you have finished entering all of your data, you need to tell CartoDB that your **'latitude'** & **'longitude'** fields contain the geographic information about your locations. This will create **geometry** data in the default column, **'the-geom'**.
 * Click on the orange **GEO** button, to the right of the name of the **'the_geom'** column
 
-![GEO Button](./images/edit/geobutton.png)
+![GEO Button](./images/geobutton.png)
 
 * CartoDB should guess that your coordinate columns are called **'longitude'** & **'latitude'**
 * Click **Continue**
 
-![Geocoding (selecting the columns)](./images/edit/geocontinue.png)
+![Geocoding (selecting the columns)](./images/geocontinue.png)
 
 >You may have noticed that we could have simply placed **street addresses** into our table and **'geocoded'** our data that way. We used **coordinate** for two reasons:
 >* First, **geocoding street addresses** in CartoDB comes with a quota, **geocoding** with **coordinates** doesn't...
 >* Second, we're mapping historical locations/addresses that might not necessarily be the same, now, as they were, historically. Streets change names, disappear and are created through time.
 
-![the_geom](./images/edit/the_geom.png)
+![the_geom](./images/the_geom.png)
 
 * That's it! You should see your coordinates in the **'the_geom'** column, now!
 * Click on the **MAP VIEW** button at the top and center of the page to see your locations appear on the map.
 
-![Map View](./images/edit/mapview.png)
+![Map View](./images/mapview.png)
 
 Ok. You've got a CartoDB map, now. We're not going to go into creating custom symbols, etc... since you can just go the the **CartoDB Academy** page (see the top of this page) and get all of that. We're just going to stick with the default symbol for this tutorial.
 
@@ -122,15 +122,15 @@ Ok. You've got a CartoDB map, now. We're not going to go into creating custom sy
 
 Now we want to do a little culstomization of the pop-ups that will appear when you click or hover on the points in your map. Notice that, right now, nothing happens when you hover over a point, and you get a message that ***"You haven’t selected any fields to be shown in the infowindow."*** when you click on a point. Now is time to fix that, but we're going to go beyond just showing the fields we've entered, since they are just **URLs** and not terribly interesting. 
 
-![Boring default pop-up](./images/edit/defaultpopup.png)
+![Boring default pop-up](./images/defaultpopup.png)
 
 * Click on the **infowindow** button to open the CartoDB control panel at the right side of the page. 
 
-![infowindow customization](./images/edit/popupbutton.png)
+![infowindow customization](./images/popupbutton.png)
 
 * Click on the **header** dropdown and select the **image header** type
 
-![Header Selection](./images/edit/headerdropdown.png)
+![Header Selection](./images/headerdropdown.png)
 
 * Use the **swithes** to turn on all but the **latitude** & **longitude** fields for display in the pop-up
 * Toggle all of the **title** checkboxes **off**
@@ -140,7 +140,7 @@ Now we want to do a little culstomization of the pop-ups that will appear when y
  * **link_url1**
 * Now, click on the **Change HTML** link at the top right of the Cick pop-up panel
 
-![Change HTML Link](./images/edit/changehtml.png)
+![Change HTML Link](./images/changehtml.png)
 
 * Find the following code:
 >      <h1 class="order1">{{description}}</h1>
@@ -171,12 +171,12 @@ This should replace the current error message in the header with the image for w
 
     and click **Apply**
 
-![Custom Pop-up](./images/edit/custompopup.png)
+![Custom Pop-up](./images/custompopup.png)
 
 ###A Little More Work
 You can customize your CartoDB map a bit more, now, using the **Options** button, etc... I suggest at least setting the options for **Scroll Wheel Zoom**.
 
-![Options](./images/edit/options.png)
+![Options](./images/options.png)
 
 That's it! We're now ready to switch gears to create a Story Map with **Odyssey.js**
 
