@@ -153,12 +153,15 @@ Now we want to do a little culstomization of the pop-ups that will appear when y
 This should change the text in the pop-up header to the **name** value you put in the corresponding column.
 
 * Find the following code:
->      <img src="{{name}}"
 
-    And replace it with:
->      <img src="{{img_url1}}"
-
-    and click **Apply**
+```
+	<img src="{{name}}"
+```
+* And replace it with:
+```
+    <img src="{{img_url1}}"
+```
+* and click **Apply**
 
 This should replace the current error message in the header with the image for which you placed the URL in your **'img_url1'** column.
 
