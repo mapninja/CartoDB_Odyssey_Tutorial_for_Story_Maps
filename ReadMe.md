@@ -203,17 +203,17 @@ You should now see the **Odyssey.js Sandbox** template for a slideshow style sto
 
 * At the top of the *Oddysey Sandbox** panel, you should see two lines of text that look like this:
 
-\```
+```
 -title: "Odyssey example FTW"
 -author: "CartoDB"
-\```
+```
 
 * Go ahead and customize it so that it reflects the **title** and **author** for your project:
 
-\```
+```
 -title: "The Tattoo Map of San Francisco"
 -author: "Stace Maples"
-\```
+```
 
 ###Bringing your CartoDB Visualization into Odyssey.js 
 
