@@ -228,13 +228,13 @@ The first thing we want to do is bring the **CartoDB Visualization** we created 
 ![Slides Template](images/edit/cartodbjskey.png)
 
 * Return to the **Odyssey Sandbox** and paste '**vizjson: "*Your CartoDB.js API URL*"**' with your **CartoDB.js API URL** into the **config block**, so that it now looks like this:
-```
+
 ```
 -title: "The Tattoo Map of San Francisco"
 -author: "Stace Maples"
 -vizjson: "https://stanfordurb150.cartodb.com/api/v2/viz/9ac86cfa-e53c-11e4-81e9-0e853d047bba/viz.json"
 ```
-```
+
 Note that the data points from your CartoDB visualization should now be visible in your map.
 
 ![vizjson](images/edit/vizjson.png)
@@ -242,9 +242,16 @@ Note that the data points from your CartoDB visualization should now be visible 
 ###Adding a Slide to Your Story Map
 
 Now you're ready to start adding the content of your slides to the Oddysey.js Sandbox. Now is a good time to review a little bit about the Markdown language that drives the Odyssey.js application. As mentioned above, Markdown is a text markup language that acts a bit like shorthand for writing HTML code. Markdown simplifies the process of creating HTML text formatting, add ing images, links and other content to a page meant for the web. This entire tutorial is written in Markdown. 
-Odyssey.js uses Markdown in thhe way it is intended (to format text and content) with one important exception. The **H1 Heading** element is used by Odyssey.js to signal the beginning of a "new slide." You can see this in the **Odyssey.js Sandbox** if you count the number of **dots** at the top of the content panel on the left, and then count the 
+Odyssey.js uses Markdown in thhe way it is intended (to format text and content) with one important exception. The **H1 Heading** element is used by Odyssey.js to signal the beginning of a "new slide." You can see this in the **Odyssey.js Sandbox** if you count the number of **dots** at the top of the content panel on the left, and then count the number of lines in the ODYSSEY SANDBOX panel on the right that begin with the **\#** symbol. Smae number! Each **H1 Header** line in the Sandobox define the begining of a new slide, as well as the Title text of that slide.
 
+####Here are a few more important bits of Markdown syntax:
+###Headers
 
+    # Level 1 (H1) Header, also indicates the beginning of a new slide
+    ## Level 2 Header
+    ### Level 3 Header
+
+###Paragraph Text
 
 
 
