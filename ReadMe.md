@@ -164,10 +164,14 @@ This should replace the current error message in the header with the image for w
 
 
 * Finally, find the following code:
->      <p>{{link_url1}}</p>
+```
+	<p>{{link_url1}}</p>
+```
 
     And replace it with:
->      <a href="{{link_url1}}" target="_blank"'>More Information</a>
+```
+	<a href="{{link_url1}}" target="_blank"'>More Information</a>
+```
 
     and click **Apply**
 
@@ -312,8 +316,9 @@ That's as far as we are going to dive into Markdown for this tutorial, but there
 Ok, time to create your first Story Map slide. 
 * Return to the **Odyssey Sandbox** and place your curser on the blank line just above the deafult first slide **H1** header and add the **Title Text** you want for your first slide, like this:
 
-
+```
     #Lyle Tuttle's First Tattoo Shop
+```
 
 * Hit **Enter**
 * Now position the map so that the *crosshair* in the center of the screen is directly above the location you want to highlight. Use the **Zoom** tool to change the scale of the map, until you are happy with the view.
