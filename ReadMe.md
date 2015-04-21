@@ -307,3 +307,64 @@ Which will render like this:
 
 That's as far as we are going to dive into Markdown for this tutorial, but there is loads more you can do with it. If you want' to find out more, go to [http://daringfireball.net/projects/markdown/syntax](http://daringfireball.net/projects/markdown/syntax)
 
+##Making Your First Odyssey.js Slide
+
+Ok, time to create your first Story Map slide. 
+* Return to the **Odyssey Sandbox** and place your curser on the blank line just above the deafult first slide **H1** header and add the **Title Text** you want for your first slide, like this:
+
+
+    #Lyle Tuttle's First Tattoo Shop
+
+* Hit **Enter**
+* Now position the map so that the *crosshair* in the center of the screen is directly above the location you want to highlight. Use the **Zoom** tool to change the scale of the map, until you are happy with the view.
+* Notice that when you created the **H1** header for your slide, a little **ADD** button appeared to the left of it in the **Odyssey Sandbox**. Click on that **ADD** button to snapshot the view for the slide. Select the option to ***move map to the current position***.
+
+![Add a New Slide](images/edit/addslide.png)
+
+###Add more slides!
+Now that you know how, you can delete the **Sandbox** Markdown below your first slide and add all of the slides you want! Insert Images, etc...
+
+##Using a Georeferenced Map from [DavidRumsey.com](http://www.davidrumsey.com/view/georeferenced-maps) as Your Basemap
+
+It's possible to change the basemap of your **Odyssey.js** Story Map, either using the Basemap Selector at the bottom of the **Sandbox** panel, or by adding a bit of code to the **config block**. This is a bit tricky, but I will briefly explain it here.
+
+* First, go to [DavidRumsey.com](http://www.davidrumsey.com/view/georeferenced-maps) and find a map that is georeferenced that you can use (I won't go into the use of his georeferencer here, but you can search for any map you want and georeference it yourself). There is a **Map Finder** at the bottom of the page, which is currently the easiest way to locate a map for the area you want.
+* Click on the dots to preview the maps, and once you find one, click on **View this map in... *Georeferencer***
+
+![Rumsey Map Finder](images/edit/rumseymapfinder.png)
+
+* Click on the **Embed OGC WMTS tiles** link at the top right of the map window
+
+![Embed OGC WMTS](images/edit/embedtiles.png)
+
+* Click on the **Affine Thumbnail**  
+
+![Affine Thumbnail](images/edit/affine.png)
+
+* Find the *MapBox JS** Source code link on the right side of the page and click on it
+
+![MapBox Embed Code](images/edit/mapboxembedcode.png)
+
+* OK, here's the tricky part. It looks scarier than it is. Find the first URL for the Tile Server in the code. It should be **Green**. Highlight & copy that URL, with the quotes. It will look something like this:
+
+
+    "http://georeferencer-0.tileserver.com//266b60e098fda1ddbe521ebff0e4d8676a549302/map/CGtnosESWB2NnsgVyjmQc5/201411301752-7AINSs/affine/{z}/{x}/{y}.png"
+
+![Tile Server URL](images/edit/tileserverurl.png)
+
+* Return to your **Odyssey.js Sandbox** and add the following text to your **config block** at the top of your Markdown code, using the URL you copied from davidrumsey.com, like this:
+
+    -baseurl: "http://georeferencer-0.tileserver.com//266b60e098fda1ddbe521ebff0e4d8676a549302/map/CGtnosESWB2NnsgVyjmQc5/201411301752-7AINSs/affine/{z}/{x}/{y}.png"
+
+
+
+
+
+
+
+
+
+
+
+
+
