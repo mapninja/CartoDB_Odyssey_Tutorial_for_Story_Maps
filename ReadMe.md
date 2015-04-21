@@ -152,26 +152,30 @@ Now we want to do a little culstomization of the pop-ups that will appear when y
 
 This should change the text in the pop-up header to the **name** value you put in the corresponding column.
 
-* Find the following code:
+* Find the following code:  
 
 ```
 	<img src="{{name}}"
 ```
-* And replace it with:
+
+* And replace it with:  
+
 ```
     <img src="{{img_url1}}"
 ```
+
 * and click **Apply**
 
 This should replace the current error message in the header with the image for which you placed the URL in your **'img_url1'** column.
 
 
-* Finally, find the following code:
+* Finally, find the following code:  
+
 ```
 	<p>{{link_url1}}</p>
 ```
 
-* And replace it with:
+* And replace it with:  
 
 ```
 	<a href="{{link_url1}}" target="_blank"'>More Information</a>
@@ -366,7 +370,7 @@ It's possible to change the basemap of your **Odyssey.js** Story Map, either usi
 	-baseurl: "http://georeferencer-0.tileserver.com//266b60e098fda1ddbe521ebff0e4d8676a549302/map/CGtnosESWB2NnsgVyjmQc5/201411301752-7AINSs/affine/{z}/{x}/{y}.png"  
 ```
 
-
+##Sharing your Story Map
 
 
 #Here is the Markdown Code for the Sample Story Map I Just Walked Through, Above:
