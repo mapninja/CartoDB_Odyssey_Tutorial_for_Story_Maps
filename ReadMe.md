@@ -202,17 +202,19 @@ You should now see the **Odyssey.js Sandbox** template for a slideshow style sto
 ###Customize the **config block** of Your Odyssey.js Applicaiton
 
 * At the top of the *Oddysey Sandbox** panel, you should see two lines of text that look like this:
-
 ```
--title: "Odyssey example FTW"
--author: "CartoDB"
+	```
+	-title: "Odyssey example FTW"
+	-author: "CartoDB"
+	```
 ```
 
 * Go ahead and customize it so that it reflects the **title** and **author** for your project:
-
 ```
--title: "The Tattoo Map of San Francisco"
--author: "Stace Maples"
+    ```
+    -title: "The Tattoo Map of San Francisco"
+    -author: "Stace Maples"
+    ```
 ```
 
 ###Bringing your CartoDB Visualization into Odyssey.js 
@@ -227,7 +229,8 @@ The first thing we want to do is bring the **CartoDB Visualization** we created 
 
 ![Slides Template](images/edit/cartodbjskey.png)
 
-* Return to the **Odyssey Sandbox** and paste '**vizjson: "*Your CartoDB.js API URL*"**' with your **CartoDB.js API URL** into the **config block**, so that it now looks like this:
+* Return to the **Odyssey Sandbox** and paste '**vizjson: "*Your CartoDB.js API URL*"**' with your **CartoDB.js API URL** into the **config block**, so that it now looks something like this:
+
 ```
     ```
     -title: "The Tattoo Map of San Francisco"
@@ -235,6 +238,7 @@ The first thing we want to do is bring the **CartoDB Visualization** we created 
     -vizjson: "https://stanfordurb150.cartodb.com/api/v2/viz/9ac86cfa-e53c-11e4-81e9-0e853d047bba/viz.json"
     ```
 ```
+
 Note that the data points from your CartoDB visualization should now be visible in your map.
 
 ![vizjson](images/edit/vizjson.png)
