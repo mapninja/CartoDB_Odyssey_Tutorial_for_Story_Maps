@@ -245,34 +245,64 @@ Note that the data points from your CartoDB visualization should now be visible 
 
 ###Adding a Slide to Your Story Map
 
-Now you're ready to start adding the content of your slides to the Oddysey.js Sandbox. Now is a good time to review a little bit about the Markdown language that drives the Odyssey.js application. As mentioned above, Markdown is a text markup language that acts a bit like shorthand for writing HTML code. Markdown simplifies the process of creating HTML text formatting, add ing images, links and other content to a page meant for the web. This entire tutorial is written in Markdown. 
-Odyssey.js uses Markdown in thhe way it is intended (to format text and content) with one important exception. The **H1 Heading** element is used by Odyssey.js to signal the beginning of a "new slide." You can see this in the **Odyssey.js Sandbox** if you count the number of **dots** at the top of the content panel on the left, and then count the number of lines in the ODYSSEY SANDBOX panel on the right that begin with the **\#** symbol. Smae number! Each **H1 Header** line in the Sandobox define the begining of a new slide, as well as the Title text of that slide.
+Now you're ready to start adding the content of your slides to the Oddysey.js Sandbox. Now is a good time to review a little bit about the Markdown language that drives the Odyssey.js application. As mentioned above, [Markdown](http://daringfireball.net/projects/markdown/syntax) is a text markup language that acts a bit like shorthand for writing HTML code. Markdown simplifies the process of creating HTML text formatting, add ing images, links and other content to a page meant for the web. This entire tutorial is written in [Markdown](http://daringfireball.net/projects/markdown/syntax). 
+Odyssey.js uses [Markdown](http://daringfireball.net/projects/markdown/syntax) in thhe way it is intended (to format text and content) with one important exception. The **H1 Heading** element is used by Odyssey.js to signal the beginning of a "new slide." You can see this in the **Odyssey.js Sandbox** if you count the number of **dots** at the top of the content panel on the left, and then count the number of lines in the ODYSSEY SANDBOX panel on the right that begin with the **\#** symbol. Same number! Each **H1 Header** line in the Sandobox define the begining of a new slide, as well as the Title text of that slide.
 
-####Here are a few more important bits of Markdown syntax:
+####Here are a few more important bits of [Markdown](http://daringfireball.net/projects/markdown/syntax) syntax:
 ###Headers
 
-    # Level 1 (H1) Header, also indicates the beginning of a new slide
+    # Level 1 (H1) Header, also indicates the beginning of a new slide in Odyssey.js
     ## Level 2 Header
     ### Level 3 Header
+And will render like this:
+# Level 1 (H1) Header, also indicates the beginning of a new slide in Odyssey.js
+## Level 2 Header
+### Level 3 Header
 
 ###Paragraph Text
-	Paragraph text is just paragraph text. You can **bold** text by adding ** at each end. 
+	Paragraph text is just paragraph text. You can **bold** text or use *italics*. Those are the most common uses and they end up looking like this:
+Paragraph text is just paragraph text. You can **bold** text or use *italics*. Those are the most common uses and they end up looking like this.
+### Lists
+
+    1. This
+    2. Is
+    3. An
+    4. Ordered
+    5. List
+
+    * This
+    * Is
+    * A
+    * Bullet
+    * List
+Which renders like this:
+1. This
+2. Is
+3. An
+4. Ordered
+5. List
+
+* This
+* Is
+* A
+* Bullet
+* List
 
 
+### Links
 
+    Create Links like this: [Google](http://google.com)
 
+Which Renders like this:
+[Google](http://google.com)
 
+###Images
+    You can place an image like this: 
+	
+	![Stace is silly](http://web.stanford.edu/~maples/images/staceissilly.jpg "Beardo")
 
+Which will render like this:
+![Stace is silly](http://web.stanford.edu/~maples/images/staceissilly.jpg "Beardo")
 
-
-
-
-
-
-
-
-
-
-
-
+That's as far as we are going to dive into Markdown for this tutorial, but there is loads more you can do with it. If you want' to find out more, go to [http://daringfireball.net/projects/markdown/syntax](http://daringfireball.net/projects/markdown/syntax)
 
