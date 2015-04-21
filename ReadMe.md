@@ -283,6 +283,7 @@ Which renders like this:
 4. Ordered
 5. List
 
+
 * This
 * Is
 * A
@@ -303,6 +304,7 @@ Which Renders like this:
 	![Stace is silly](http://web.stanford.edu/~maples/images/staceissilly.jpg "Beardo")
 
 Which will render like this:
+
 ![Stace is silly](http://web.stanford.edu/~maples/images/staceissilly.jpg "Beardo")
 
 That's as far as we are going to dive into Markdown for this tutorial, but there is loads more you can do with it. If you want' to find out more, go to [http://daringfireball.net/projects/markdown/syntax](http://daringfireball.net/projects/markdown/syntax)
