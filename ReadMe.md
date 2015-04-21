@@ -229,11 +229,11 @@ The first thing we want to do is bring the **CartoDB Visualization** we created 
 
 * Return to the **Odyssey Sandbox** and paste '**vizjson: "*Your CartoDB.js API URL*"**' with your **CartoDB.js API URL** into the **config block**, so that it now looks like this:
 
-    ```
+    \```
     -title: "The Tattoo Map of San Francisco"
     -author: "Stace Maples"
     -vizjson: "https://stanfordurb150.cartodb.com/api/v2/viz/9ac86cfa-e53c-11e4-81e9-0e853d047bba/viz.json"
-    ```
+    \```
 
 Note that the data points from your CartoDB visualization should now be visible in your map.
 
