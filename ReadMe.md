@@ -276,7 +276,6 @@ Paragraph text is just paragraph text. You can **bold** text or use *italics*. T
     * Bullet
     * List
 Which renders like this:  
-
 1. This  
 2. Is  
 3. An  
