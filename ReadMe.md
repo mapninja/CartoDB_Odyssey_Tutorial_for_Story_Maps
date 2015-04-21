@@ -384,6 +384,10 @@ Once you have created all the slides you are interested in putting into your Sto
 
 ![Share Story Map](images/edit/shareurl.png)
 
+Here's the [bl.ocks.org]() version **(URL)** of the tutorial map: http://bl.ocks.org/anonymous/raw/636d193377d5eb399f18
+
+Here's the map in my blog: http://www.stacemaples.com/tattoo-map-of-san-francisco-odyssey-js-tutorial-sample/  
+
 ####Downloading and Hosting Your Story Map
 You can also download the code for your Story Map and host it on your own Web Server (provided you have one). 
 
@@ -391,6 +395,8 @@ You can also download the code for your Story Map and host it on your own Web Se
 * Extract the **Odyssey.html** file and copy it to your Web Server. It's ready to go! You can make customizations to the code, if you like.
 
 ![Download Odyssey](images/edit/downloadodyssey.png)
+
+Here's the map hosted on my web server: http://web.stanford.edu/~maples/maps/odyssey/odyssey.html  
 
 #Here is the Markdown Code for the Sample Story Map I Just Walked Through, Above:
 ```
