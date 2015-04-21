@@ -371,6 +371,18 @@ It's possible to change the basemap of your **Odyssey.js** Story Map, either usi
 ```
 
 ##Sharing your Story Map
+Once you have created all the slides you are interested in putting into your Story Map, you are ready to share your work with the world. The **Odyssey.js Sandbox** allows you to do this in three ways:
+
+####Sharing with an URL or Embed code
+**Odyssey.js** can export your Story Map directly to a site called [bl.ocks.org](http://bl.ocks.org), which is just a platform for sharing and rendering JavaSript code, or give you an **IFRAME** code snippet to paste into your blog, or other website.
+
+* First, click on the **Share** button (it looks like a paper airplane)
+
+![Share Story Map](images/edit/sharestorymapbutton.png)
+
+* Select whether you want to share an **URL** of Embed an **IFRAME** into an existing website, then click **Copy** to copy the **URL** or **Code** to your clipboard. For this tutorial, just select the **URL** option.
+
+![Share Story Map](images/edit/sharestorymapbutton.png)
 
 
 #Here is the Markdown Code for the Sample Story Map I Just Walked Through, Above:
