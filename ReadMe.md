@@ -233,7 +233,7 @@ The first thing we want to do is bring the **CartoDB Visualization** we created 
 -title: "The Tattoo Map of San Francisco"
 -author: "Stace Maples"
 -vizjson: "https://stanfordurb150.cartodb.com/api/v2/viz/9ac86cfa-e53c-11e4-81e9-0e853d047bba/viz.json"
-```
+\```
 
 Note that the data points from your CartoDB visualization should now be visible in your map.
 
@@ -242,7 +242,7 @@ Note that the data points from your CartoDB visualization should now be visible 
 ###Adding a Slide to Your Story Map
 
 Now you're ready to start adding the content of your slides to the Oddysey.js Sandbox. Now is a good time to review a little bit about the Markdown language that drives the Odyssey.js application. As mentioned above, Markdown is a text markup language that acts a bit like shorthand for writing HTML code. Markdown simplifies the process of creating HTML text formatting, add ing images, links and other content to a page meant for the web. This entire tutorial is written in Markdown. 
-Odyssey.js uses Markdown in thhe way it is intended (to format text and content) with one important exception. The **H1** Heading element is used by Odyssey.js to signal the beginning of a "new slide." You can see this in the Odyssey.js Sandbox if you count the number of **dots** at the top of the content panel on the left, and then count 
+Odyssey.js uses Markdown in thhe way it is intended (to format text and content) with one important exception. The **H1 Heading** element is used by Odyssey.js to signal the beginning of a "new slide." You can see this in the **Odyssey.js Sandbox** if you count the number of **dots** at the top of the content panel on the left, and then count the 
 
 
 
