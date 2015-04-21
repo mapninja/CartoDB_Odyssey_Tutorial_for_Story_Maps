@@ -183,7 +183,7 @@ That's it! We're now ready to switch gears to create a Story Map with **Odyssey.
 You can find my Tattoo map at: http://cdb.io/1FXtGQ9 
 ##Creating a Story Map with Odyssey.js
 
-Now that you've created the data for your story map, you're ready to go and build the narrative/navigation part of your application. We're going to use Odyssey.js for this. Odyssey.js is actually a JavaScript library that you can use on your own web  server, but CartoDB has implemented a **Sandbox** that allows non-programmers to deploy a story map with very little coding and without any web server infrastructure, at all.
+Now that you've created the data for your story map, you're ready to go and build the narrative/navigation part of your application. We're going to use Odyssey.js for this. Odyssey.js is actually a JavaScript library that you can use on your own web  server, but CartoDB has implemented a **Sandbox** that allows non-programmers to deploy a story map with very little coding and without any web server infrastructure, at all. Odyssey.js uses a very simple text matkup language called **Markdown**. This entire tutorial is actually written in **Markdown**, which allows Github to render the lists, HTML links and other elements. 
 
 ###Choosing an Odyssey.js Template
 
@@ -195,9 +195,56 @@ Now that you've created the data for your story map, you're ready to go and buil
 
 ![Slides Template](images/edit/slidestemplate.png)
 
-You should now see the **Odyssey.js Sandbox** template for a slideshow style story map. Note that you will be editing in the panel labeled **Odyssey Sandbox** and your edits will chance the look of the content panel on the left, as well as the map. The **Odyssey Sandbox** panel will not be visible in the final sotry map.
+You should now see the **Odyssey.js Sandbox** template for a slideshow style story map. Note that you will be editing in the panel labeled **Odyssey Sandbox** and your edits will change the look of the content panel on the left, as well as the map. The **Odyssey Sandbox** panel will not be visible in the final story map.
 
 ![Odyssey.js Slide Template Sandbox](images/edit/odysseyslidestemplate.png)
+
+###Customize the **config block** of Your Odyssey.js Applicaiton
+
+* At the top of the *Oddysey Sandbox** panel, you should see two lines of text that look like this:
+
+\```
+-title: "Odyssey example FTW"
+-author: "CartoDB"
+\```
+
+* Go ahead and customize it so that it reflects the **title** and **author** for your project:
+
+\```
+-title: "The Tattoo Map of San Francisco"
+-author: "Stace Maples"
+\```
+
+###Bringing your CartoDB Visualization into Odyssey.js 
+
+The first thing we want to do is bring the **CartoDB Visualization** we created into the Odyssey.js application. We're going to use the **[vizjson](http://cartodb.github.io/odyssey.js/documentation/#optional-options)** option in the **[config block](http://cartodb.github.io/odyssey.js/documentation/#config-block)** of your Odyssey.js markdown. First, you will need the JavaScript API URL of your visualization.
+
+* Return to the CartoDB page for your visualization and click on the **Share** button
+
+![Share Button](images/edit/share.png)
+
+* Click on the **Copy** button under the CartoDB.js panel to copy your CartoDB.js API URL
+
+![Slides Template](images/edit/cartodbjskey.png)
+
+* Return to the **Odyssey Sandbox** and paste '**vizjson: "*Your CartoDB.js API URL*"**' with your **CartoDB.js API URL** into the **config block**, so that it now looks like this:
+
+\```
+-title: "The Tattoo Map of San Francisco"
+-author: "Stace Maples"
+-vizjson: "https://stanfordurb150.cartodb.com/api/v2/viz/9ac86cfa-e53c-11e4-81e9-0e853d047bba/viz.json"
+\```
+
+Note that the data points from your CartoDB visualization should now be visible in your map.
+
+![vizjson](images/edit/vizjson.png)
+
+###Adding a Slide to Your Story Map
+
+
+
+
+
 
 
 
