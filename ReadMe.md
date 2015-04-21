@@ -382,8 +382,15 @@ Once you have created all the slides you are interested in putting into your Sto
 
 * Select whether you want to share an **URL** of Embed an **IFRAME** into an existing website, then click **Copy** to copy the **URL** or **Code** to your clipboard. For this tutorial, just select the **URL** option.
 
-![Share Story Map](images/edit/sharestorymapbutton.png)
+![Share Story Map](images/edit/shareurl.png)
 
+####Downloading and Hosting Your Story Map
+You can also download the code for your Story Map and host it on your own Web Server (provided you have one). 
+
+* Click on the **Download story** button in the **Odyssey Sandbox** panel and save the resulting **.zip** file to your computer. 
+* Extract the **Odyssey.html** file and copy it to your Web Server. It's ready to go! You can make customizations to the code, if you like.
+
+![Download Odyssey](images/edit/downloadodyssey.png)
 
 #Here is the Markdown Code for the Sample Story Map I Just Walked Through, Above:
 ```
