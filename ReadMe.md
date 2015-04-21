@@ -82,15 +82,15 @@ Add the following columns using the **Add new column** dialog box (just click th
 ![Add Columns](images/edit/addnewcolumndialog.png)
 
 ##Entering Your Data!
-Now it's time to start putting some content into your CartoDB table. Hopefully, you've already assembled the materials you need and can simply begin to **cut-&_paste** that data into your table.
+Now it's time to start putting some content into your CartoDB table. Hopefully, you've already assembled the materials you need and can simply begin to **cut-&-paste** that data into your table.
 
-* First, click on either of the **Add Row** buttons at the left side of the first empty row, or at the bottom right of the table, right above the *Add Column** button.
+* First, click on either of the **Add Row** buttons at the left side of the first empty row, or at the bottom right of the table, right above the **Add Column** button.
 
 ![Add a Row](images/edit/addnewrow.png)
 
 * Now simply **double-click** in the **cell** you want to / and **cut-&-paste** the data for your locations into the table.
 
-![Editing Cell Values](images/edit//ingcells.png)
+![Editing Cell Values](images/edit/editingcells.png)
 
 **Now all you need to do is repeat the process for all of your locations!**
 
@@ -132,7 +132,7 @@ Now we want to do a little culstomization of the pop-ups that will appear when y
 
 ![Header Selection](images/edit/headerdropdown.png)
 
-* Use the **swithes** to turn on all but the **latitude** & **longitude** fields for display in the pop-up
+* Use the **switches** to turn on all but the **latitude** & **longitude** fields for display in the pop-up
 * Toggle all of the **title** checkboxes **off**
 * **Drag-and-Drop** the enabled fields to reorder them so that they are ordered like so:
  * **name**
@@ -233,7 +233,7 @@ The first thing we want to do is bring the **CartoDB Visualization** we created 
 -title: "The Tattoo Map of San Francisco"
 -author: "Stace Maples"
 -vizjson: "https://stanfordurb150.cartodb.com/api/v2/viz/9ac86cfa-e53c-11e4-81e9-0e853d047bba/viz.json"
-\```
+```
 
 Note that the data points from your CartoDB visualization should now be visible in your map.
 
@@ -241,7 +241,8 @@ Note that the data points from your CartoDB visualization should now be visible 
 
 ###Adding a Slide to Your Story Map
 
-
+Now you're ready to start adding the content of your slides to the Oddysey.js Sandbox. Now is a good time to review a little bit about the Markdown language that drives the Odyssey.js application. As mentioned above, Markdown is a text markup language that acts a bit like shorthand for writing HTML code. Markdown simplifies the process of creating HTML text formatting, add ing images, links and other content to a page meant for the web. This entire tutorial is written in Markdown. 
+Odyssey.js uses Markdown in thhe way it is intended (to format text and content) with one important exception. The **H1** Heading element is used by Odyssey.js to signal the beginning of a "new slide." You can see this in the Odyssey.js Sandbox if you count the number of **dots** at the top of the content panel on the left, and then count 
 
 
 
