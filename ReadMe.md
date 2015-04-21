@@ -23,8 +23,8 @@ I'll be maching up information from various sources ([Wikipedia](http://www.wiki
  * Links (URLs) to images
  * Links (URLs) to more content
  * Narrative text about your subject
- * etc...
- * A **CartoDB account**. You can get a free one, here: [CartoDB Free Account](https://cartodb.com/signup). If you have an **.edu** email address, you can get a slightly better one, here: [CartoDB Aademy Account](https://cartodb.com/signup?plan=academy)
+ * etc...  
+* A **CartoDB account**. You can get a free one, here: [CartoDB Free Account](https://cartodb.com/signup). If you have an **.edu** email address, you can get a slightly better one, here: [CartoDB Aademy Account](https://cartodb.com/signup?plan=academy)
 
 ###It Would Be Incredibly Helpful if You...
 * Go through the following [CartoDB Academy courses:](http:/academy.cartodb.com/) 
