@@ -371,36 +371,36 @@ It's possible to change the basemap of your **Odyssey.js** Story Map, either usi
 
 #Here is the Markdown Code for the Sample Story Map I Just Walked Through, Above:
 ```
-```
--baseurl: "http://georeferencer-0.tileserver.com//266b60e098fda1ddbe521ebff0e4d8676a549302/map/CGtnosESWB2NnsgVyjmQc5/201411301752-7AINSs/affine/{z}/{x}/{y}.png"
--title: "The Tattoo Map of San Francisco"
--author: "Stace Maples"
--vizjson: "https://stanfordurb150.cartodb.com/api/v2/viz/9ac86cfa-e53c-11e4-81e9-0e853d047bba/viz.json"
-```
-#The Tattoo Map of San Francisco
-```
-- center: [37.7687, -122.4355]
-- zoom: 13
-```
-The History of American Tattooing and the City of San Francisco have an intimate relationship. This map explores that relationship. It is by no means authoritative, or comprehensive. Slides and information will be added, over time.
+	```
+	-baseurl: "http://georeferencer-0.tileserver.com//266b60e098fda1ddbe521ebff0e4d8676a549302/map/CGtnosESWB2NnsgVyjmQc5/201411301752-7AINSs/affine/{z}/{x}/{y}.png"
+	-title: "The Tattoo Map of San Francisco"
+	-author: "Stace Maples"
+	-vizjson: "https://stanfordurb150.cartodb.com/api/v2/viz/9ac86cfa-e53c-11e4-81e9-0e853d047bba/viz.json"
+	```
+	#The Tattoo Map of San Francisco
+	```
+	- center: [37.7687, -122.4355]
+	- zoom: 13
+	```
+	The History of American Tattooing and the City of San Francisco have an intimate relationship. This map explores that relationship. It is by no means authoritative, or comprehensive. Slides and information will be added, over time.
 
-#Lyle Tuttle's First Tattoo Shop
-```
-- center: [37.7801, -122.4121]
-- zoom: 16
-```
-![Lyle Tuttle](http://www.cdn1.inkedout4life.com/wp-content/uploads/2013/01/Lyle-Tuttle-artist-large.jpg)
+	#Lyle Tuttle's First Tattoo Shop
+	```
+	- center: [37.7801, -122.4121]
+	- zoom: 16
+	```
+	![Lyle Tuttle](http://www.cdn1.inkedout4life.com/wp-content/uploads/2013/01/Lyle-Tuttle-artist-large.jpg)
 
-Tuttle was born in Chariton, Iowa in 1931 but grew up in Ukiah, California. At the age of fourteen he purchased his first tattoo for $3.50. In 1949, he began tattooing professionally.[2] In 1954 he opened his own studio in San Francisco. This first shop was open for nearly 30 years. Tuttle tattooed Janis Joplin, Cher, Henry Fonda, Paul Stanley, Joan Baez, the Allman Brothers, and many other notable musicians, actors, and celebrities.
+	Tuttle was born in Chariton, Iowa in 1931 but grew up in Ukiah, California. At the age of fourteen he purchased his first tattoo for $3.50. In 1949, he began tattooing professionally.[2] In 1954 he opened his own studio in San Francisco. This first shop was open for nearly 30 years. Tuttle tattooed Janis Joplin, Cher, Henry Fonda, Paul Stanley, Joan Baez, the Allman Brothers, and many other notable musicians, actors, and celebrities.
 
-#Lyle Tuttle's Tattoo Museum and Studio
-```
-- center: [37.8024, -122.4135]
-- zoom: 17
-```
-![Lyle Tuttle](http://www.lyletuttle.com/_Media/lyle-tuttle-2012_med.jpeg)
+	#Lyle Tuttle's Tattoo Museum and Studio
+	```
+	- center: [37.8024, -122.4135]
+	- zoom: 17
+	```
+	![Lyle Tuttle](http://www.lyletuttle.com/_Media/lyle-tuttle-2012_med.jpeg)
 
-His first shop when working for Bert Grimm at 16 Cedar Way, Long Beach, CA. on "The Pike". After tattooing in Anchorage and Fairbanks, AK. and Oakland, CA., Lyle opened up shop in 1960 at #30 7th St., in between Mission St. and Market St., also referred to as South of Market, San Francisco, CA. As the story goes, the end of an era and the beginning of a new one. Lyle tattooed at #30 7th St., San Francisco, CA. for 29 and a half years, until the Loma Prieta Earthquake in 1989 caused the building to be "yellow tagged". The shop and the museum are both now open at 841 Columbus Avenue.
+	His first shop when working for Bert Grimm at 16 Cedar Way, Long Beach, CA. on "The Pike". After tattooing in Anchorage and Fairbanks, AK. and Oakland, CA., Lyle opened up shop in 1960 at #30 7th St., in between Mission St. and Market St., also referred to as South of Market, San Francisco, CA. As the story goes, the end of an era and the beginning of a new one. Lyle tattooed at #30 7th St., San Francisco, CA. for 29 and a half years, until the Loma Prieta Earthquake in 1989 caused the building to be "yellow tagged". The shop and the museum are both now open at 841 Columbus Avenue.
 
 ```
 
