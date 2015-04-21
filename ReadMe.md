@@ -168,12 +168,13 @@ This should replace the current error message in the header with the image for w
 	<p>{{link_url1}}</p>
 ```
 
-    And replace it with:
+* And replace it with:
+* 
 ```
 	<a href="{{link_url1}}" target="_blank"'>More Information</a>
 ```
 
-    and click **Apply**
+* and click **Apply**
 
 ![Custom Pop-up](images/edit/custompopup.png)
 
