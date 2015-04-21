@@ -345,16 +345,17 @@ It's possible to change the basemap of your **Odyssey.js** Story Map, either usi
 
 ![MapBox Embed Code](images/edit/mapboxembedcode.png)
 
-* OK, here's the tricky part. It looks scarier than it is. Find the first URL for the Tile Server in the code. It should be **Green**. Highlight & copy that URL, with the quotes. It will look something like this:
-
-
-    "http://georeferencer-0.tileserver.com//266b60e098fda1ddbe521ebff0e4d8676a549302/map/CGtnosESWB2NnsgVyjmQc5/201411301752-7AINSs/affine/{z}/{x}/{y}.png"
-
+* OK, here's the tricky part. It looks scarier than it is. Find the first URL for the Tile Server in the code. It should be **Green**. Highlight & copy that URL, with the quotes. It will look something like this:  
+```
+	"http://georeferencer-0.tileserver.com//266b60e098fda1ddbe521ebff0e4d8676a549302/map/CGtnosESWB2NnsgVyjmQc5/201411301752-7AINSs/affine/{z}/{x}/{y}.png"
+```
 ![Tile Server URL](images/edit/tileserverurl.png)
 
-* Return to your **Odyssey.js Sandbox** and add the following text to your **config block** at the top of your Markdown code, using the URL you copied from davidrumsey.com, like this:
+* Return to your **Odyssey.js Sandbox** and add the following text to your **config block** at the top of your Markdown code, using the URL you copied from davidrumsey.com, like this:  
 
-    -baseurl: "http://georeferencer-0.tileserver.com//266b60e098fda1ddbe521ebff0e4d8676a549302/map/CGtnosESWB2NnsgVyjmQc5/201411301752-7AINSs/affine/{z}/{x}/{y}.png"
+```
+	-baseurl: "http://georeferencer-0.tileserver.com//266b60e098fda1ddbe521ebff0e4d8676a549302/map/CGtnosESWB2NnsgVyjmQc5/201411301752-7AINSs/affine/{z}/{x}/{y}.png"  
+```
 
 
 
