@@ -434,6 +434,8 @@ Tuttle was born in Chariton, Iowa in 1931 but grew up in Ukiah, California. At t
 
 His first shop when working for Bert Grimm at 16 Cedar Way, Long Beach, CA. on "The Pike". After tattooing in Anchorage and Fairbanks, AK. and Oakland, CA., Lyle opened up shop in 1960 at #30 7th St., in between Mission St. and Market St., also referred to as South of Market, San Francisco, CA. As the story goes, the end of an era and the beginning of a new one. Lyle tattooed at #30 7th St., San Francisco, CA. for 29 and a half years, until the Loma Prieta Earthquake in 1989 caused the building to be "yellow tagged". The shop and the museum are both now open at 841 Columbus Avenue.
 ```
+```
+
 
 ##And, the code for the Custom HTML Popup in CartoDB:
 
