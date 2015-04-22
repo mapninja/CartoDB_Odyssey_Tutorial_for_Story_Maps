@@ -249,7 +249,7 @@ The first thing we want to do is bring the **CartoDB Visualization** we created 
     ```
     -title: "The Tattoo Map of San Francisco"
     -author: "Stace Maples"
-    -vizjson: "https://stanfordurb150.cartodb.com/api/v2/viz/9ac86cfa-e53c-11e4-81e9-0e853d047bba/viz.json"
+    -vizjson: "https://stanfordgeo.cartodb.com/u/stacemaples/api/v2/viz/7840fa14-e940-11e4-bb41-0e49835281d6/viz.json"
     ```
 ```
 
