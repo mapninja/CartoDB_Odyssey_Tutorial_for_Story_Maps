@@ -201,7 +201,7 @@ Now that you've created the data for your story map, you're ready to go and buil
 
 ###Choosing an Odyssey.js Template
 
-* First, go to http://cartodb.github.io/odyssey.js/ and click on the 
+* First, go to http://cartodb.github.io/odyssey.js/ and click on the **Create Story** button
 
 ![Create a Story](https://raw.githubusercontent.com/mapninja/CartoDB_Odyssey_Tutorial_for_Story_Maps/master/images/edit/createstory.png)
 
