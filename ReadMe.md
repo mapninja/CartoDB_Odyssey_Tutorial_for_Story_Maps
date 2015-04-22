@@ -27,7 +27,7 @@ I'll be maching up information from various sources ([Wikipedia](http://www.wiki
  * Links (URLs) to more content
  * Narrative text about your subject
  * etc...  
-* A **CartoDB account**. You can get a free one, here: [CartoDB Free Account](https://cartodb.com/signup). If you have an **.edu** email address, you can get a slightly better one, here: [CartoDB Aademy Account](https://cartodb.com/signup?plan=academy)
+* A **CartoDB account**. You can get a free one, here: [CartoDB Free Account](https://cartodb.com/signup). If you have an **.edu** email address, you can get a slightly better one, here: [CartoDB Academy Account](https://cartodb.com/signup?plan=academy)
 
 ###It Would Be Incredibly Helpful if You...
 * Go through the following [CartoDB Academy courses:](http:/academy.cartodb.com/) 
@@ -435,7 +435,30 @@ Here's the map hosted on my web server: http://web.stanford.edu/~maples/maps/ody
 
 ```
 
+And, the code for the Culstom HTML Popup:
 
+```
+<div class="cartodb-popup header with-image v2" data-cover="true">
+  <a href="#close" class="cartodb-popup-close-button close">x</a>
+  <div class="cartodb-popup-header">
+    <div class="cover">
+      <div id="spinner"></div>
+      <div class="image_not_found"> <i></i> <a href="#/map" class="help">Non-valid picture URL</a></div>
+      <span class="separator"></span>
+      <h1 class="order1">{{name}}</h1>
+      <div class="shadow"></div>
+      <img src="{{img_url1}}" style="height:138px;display:inline" />
+    </div>
+  </div>
+  <div class="cartodb-popup-content-wrapper">
+    <div class="cartodb-popup-content">
+      <p>{{description}}</p>
+      <a href="{{link_url1}}" target="_blank"'>More Information</a>
+    </div>
+  </div>
+  <div class="cartodb-popup-tip-container"></div>
+</div>
+```
 
 
 
