@@ -386,7 +386,7 @@ Once you have created all the slides you are interested in putting into your Sto
 
 ![Share Story Map](https://raw.githubusercontent.com/mapninja/CartoDB_Odyssey_Tutorial_for_Story_Maps/master/images/edit/shareurl.png)
 
-Here's the [bl.ocks.org]() version **(URL)** of the tutorial map: http://bl.ocks.org/anonymous/raw/636d193377d5eb399f18
+Here's the [bl.ocks.org]() version **(URL)** of the tutorial map: http://bl.ocks.org/anonymous/raw/409cb9de4c713e082dee
 
 Here's the map in my blog: http://www.stacemaples.com/tattoo-map-of-san-francisco-odyssey-js-tutorial-sample/  
 
@@ -400,7 +400,7 @@ You can also download the code for your Story Map and host it on your own Web Se
 
 Here's the map hosted on my web server: http://web.stanford.edu/~maples/maps/odyssey/odyssey.html  
 
-#Here is the Markdown Code for the Sample Story Map I Just Walked Through, Above:
+##Here is the Markdown Code for the Sample Story Map I Just Walked Through, Above:
 ```
 	```
 	-baseurl: "http://georeferencer-0.tileserver.com//266b60e098fda1ddbe521ebff0e4d8676a549302/map/CGtnosESWB2NnsgVyjmQc5/201411301752-7AINSs/affine/{z}/{x}/{y}.png"
@@ -435,7 +435,7 @@ Here's the map hosted on my web server: http://web.stanford.edu/~maples/maps/ody
 
 ```
 
-And, the code for the Culstom HTML Popup:
+##And, the code for the Custom HTML Popup in CartoDB:
 
 ```
 <div class="cartodb-popup header with-image v2" data-cover="true">
